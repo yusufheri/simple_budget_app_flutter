@@ -17,11 +17,12 @@ final List<double> weeklySpending = [
 ];
 
 List<Category> categories = [
-  Category(name: "Training", maxAmount: 250, expenses: _generateExpense()),
-  Category(name: "Housing", maxAmount: 160, expenses: _generateExpense()),
-  Category(name: "Food", maxAmount: 250, expenses: _generateExpense()),
-  Category(name: "Utilities", maxAmount: 250, expenses: _generateExpense()),
-  Category(name: "Health", maxAmount: 150, expenses: _generateExpense())
+  Category(name: "Training", maxAmount: 550, expenses: _generateExpense()),
+  Category(name: "Housing", maxAmount: 320, expenses: _generateExpense()),
+  Category(name: "Food", maxAmount: 500, expenses: _generateExpense()),
+  Category(name: "Utilities", maxAmount: 350, expenses: _generateExpense()),
+  Category(name: "Health", maxAmount: 450, expenses: _generateExpense()),
+  Category(name: "Family", maxAmount: 150, expenses: _generateExpense()),
 ];
 
 List<Expense> _generateExpense() {
